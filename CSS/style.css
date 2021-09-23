@@ -1,0 +1,223 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root {
+    --white-color: #fff;
+    --black-color: #222222;
+    --text-color: #333;
+    --font-size: 16px;
+}
+
+* {
+    box-sizing: inherit;
+}
+ 
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 77px;
+    background-color: antiquewhite;
+    
+}
+.gird{
+    width: 1520px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.size_container{
+    width: 1300px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.header__navbar{
+    display: flex;
+    justify-content: space-between;  
+}
+.header__navbar-list{
+
+}
+
+.header__navbar-item,
+.header__navbar-item-link
+{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 77px;
+    padding-left: 20px;
+
+}
+.logo img{
+    max-width: 50px;
+    max-height: 50px;
+}
+.iok{
+    display: block;
+}
+
+
+.container__banner img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 42px;
+    border-radius: 20px;
+}
+.text__header_and_text--all{
+    font-size: var(--font-size);
+    line-height: 40px;
+    margin-top: 24px;
+}
+
+.wellcome__lux{
+
+}
+.wellcome__lux--heading{
+    font-size: 28px;
+    margin-top: 56px;
+}
+.wellcome__lux--text{
+
+}
+.famous__place{
+    margin-bottom: 200px;
+
+}
+
+/* Địa điểm */
+.container__place-list{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.place-item{
+    margin-left: -16px;
+}
+
+.container__list-place--img{
+    margin-top: 15px;
+    margin-left: 16px;
+    margin-bottom: 30px;
+    width: 247px;
+    height: 308px;
+    border-radius: 3px;
+    
+}
+.container__list-image-body{
+    margin: -116px 56px;
+    
+}
+.container__list-image-body--heading{
+    font-size: 24px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+.container__list-image-body--text{
+    font-size: 16px;
+    color: #FFFFFFE6;
+}
+
+/* Ưu đãi độc quyền */
+.luxstay__sale{
+
+
+}
+.luxstay__sale-title-p{
+    display: flex;
+    justify-content: space-between;
+
+}
+.link_more{
+    color: #f65e39;
+    text-decoration: none;
+}
+.luxstay__sale-list{
+    display: flex;
+    justify-content: space-between;
+
+}
+.luxstay__sale-list-item-img{
+    width: 422px;
+    height: 185px;
+    border-radius: 3px;
+    margin-left: 16px;
+
+}
+.luxstay__sale-list-item{
+    margin-left: -16px;
+}
+
+/* Gợi ý từ Luxstay */
+.luxstay__suggestions-list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -16px;
+}
+.luxstay__suggestions-list-item{
+    margin-left: 16px;
+
+}
+.luxstay__suggestions-list-item--img{
+    width: 312px;
+    height: 195px;
+    border-radius: 1px;
+
+}
+.luxstay__suggestions-list-item-body--h3{
+    color: #555555;
+    font-size: 12px;
+    padding: 8px 0px;
+}
+.luxstay__suggestions-list-item-body--p{
+    color: #151B26;
+    font-size: 16px;
+}
+.suggestions--p:hover{
+    color: rgba(0,0,0,red);
+    cursor: pointer;
+}
+
+
+
+
